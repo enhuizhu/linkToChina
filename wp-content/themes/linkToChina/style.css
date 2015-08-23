@@ -18,6 +18,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
   min-height: 800px; }
 
+.clear {
+  clear: both; }
+
+@media only screen and (max-width: 320px) {
+  /* Style adjustments for viewports that meet the condition */
+  .header .tel .glyphicon.glyphicon-earphone {
+    margin-right: 0px; } }
 .body-gradient {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+0,fcfcfc+100 */
   background: #efefef;

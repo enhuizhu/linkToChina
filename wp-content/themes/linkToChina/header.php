@@ -40,6 +40,7 @@
                                 <i class="glyphicon glyphicon-earphone"></i> 
                                 <label>020 1000 3245</label>
                             </span>
+                            <div class="clear"></div>
                   </div>
                   </div>
              </div>
