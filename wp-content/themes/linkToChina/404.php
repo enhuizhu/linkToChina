@@ -1,7 +1,7 @@
  <?php
    /**
   * 404 template
-  **/
+  **
  ?>
  <?php get_header(); ?>
             <div class="container">
