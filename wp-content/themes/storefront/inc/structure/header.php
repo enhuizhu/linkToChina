@@ -62,12 +62,13 @@ if ( ! function_exists( 'storefront_primary_navigation' ) ) {
 					)
 			);
 
-			// wp_nav_menu(
-			// 	array(
-			// 		'theme_location'	=> 'handheld',
-			// 		'container_class'	=> 'handheld-navigation',
-			// 		)
-			// );
+			wp_nav_menu(
+				array(
+					'theme_location'	=> 'handheld',
+					'menu' => "menu",
+					'container_class'	=> 'handheld-navigation',
+					)
+			);
 			?>
 		</nav><!-- #site-navigation -->
 		<?php
